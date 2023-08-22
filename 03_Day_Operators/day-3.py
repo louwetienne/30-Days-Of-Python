@@ -80,6 +80,12 @@ gravity = 9.81
 weight = mass * gravity
 print(weight, 'N')
 
+# Calculate the density of a liquid
+mass = 75 # in Kg
+volume = 0.075 # in cubic meter
+density = mass / volume # 1000 Kg/m^3
+print(density, 'kg/m^3')
+
 print(3 > 2)     # True, because 3 is greater than 2
 print(3 >= 2)    # True, because 3 is greater than 2
 print(3 < 2)     # False,  because 3 is greater than 2
